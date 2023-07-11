@@ -1,0 +1,284 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("../img/background-img/p6.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.forget{
+    height: 800px;
+    width: 100%;
+    border: 20px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    transition-delay: 99999s;
+    transition: color 99999s ease-out, background-color 99999s ease-out;
+    -webkit-transition-delay: 99999s;
+    -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+    -webkit-text-fill-color: #807c7c;
+}
+.login-form{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px black;
+    transition: 0.5s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(245, 245, 245, 0);
+}
+.login-form form{
+    width: 90%;
+}
+.wthree-text{
+    margin-left: 15px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wthree-text ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wthree-text ul li{
+
+    margin-right: 30px;
+    margin-left: 10px;
+
+}
+.wthree-text ul li a{
+    color: rgba(245, 245, 245, 0.42);
+}
+.style-input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.style-input label{
+    width: 30px;
+}
+.style-input input{
+    outline: rgba(245, 245, 245, 0);
+    background-color: rgba(245, 245, 245, 0);
+    border-color: rgba(245, 245, 245, 0);
+    width: 230px;
+    color: black;
+}
+.style-input input{
+    outline: rgba(245, 245, 245, 0);
+    background-color: rgba(245, 245, 245, 0);
+    border-color: rgba(245, 245, 245, 0);
+    width: 230px;
+}
+
+
+.btn {
+    margin-top: 15px;
+    transition-duration: 300s;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.twinkle {
+    transition-duration: 300ms;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #2c3e50;
+    color: #2c3e50;
+    transition: background-color .2s;
+}
+
+.twinkle::before {
+    transition-duration: 300ms;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 200%;
+    background-image: linear-gradient(180deg, #f6f4f4 100%, #f6f4f4 0%);
+    transform: skew(45deg) translate3d(-200px,0,0);
+}
+
+.twinkle:hover {
+    transition-duration: 300ms;
+    background-image: linear-gradient(180deg, #f6f4f4 0%, #f6f4f4 100%);
+}
+
+.twinkle:hover::before {
+    transition-duration: 300s;
+    transition: ease-in-out .200ms;
+    transform: skew(45deg) translate3d(300px,0,0);
+}
+
+#brand{
+    transform: translateY(2px);
+}
+.signup-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-form p{
+    color: rgba(245, 245, 245, 0.34);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form a{
+    color: rgba(245, 245, 245, 0.34);
+}
+.email-validation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.col-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.email-validation label{
+    width: 30px;
+    font-size: 10px;
+    color: white;
+}
+.email-validation input{
+    outline: rgba(245, 245, 245, 0);
+    background-color: rgba(245, 245, 245, 0);
+    border-color: rgba(245, 245, 245, 0);
+}
+.col-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px;
+}
+.col-2 button{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #f6f4f4;
+}
+
+.agree-service{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.service-label{
+    font-size: 10px;
+    color: white;
+}
+.service-label a{
+    color: #f6f4f4;
+}
+.form-group{
+    margin-top: 10px;
+    background: rgba(245, 245, 245, 0);
+}
+.email-select{
+    width: 40%;
+    margin-bottom: -10px;
+    border: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.22);
+    outline: none;
+    background: rgba(245, 245, 245, 0);
+    padding: 10px;
+    box-sizing: border-box;
+    color: rgb(245, 245, 245);
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.email-select option{
+    background-color: rgba(26, 10, 10, 0.54);
+    color: white;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer a{
+    color: rgb(246, 244, 244);
+    font-size: 10px;
+    text-decoration: none;
+}

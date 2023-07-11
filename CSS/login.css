@@ -1,0 +1,185 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("../img/background-img/p6.png") no-repeat fixed center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.login{
+    height: 800px;
+    width: 100%;
+    border: 20px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.login-form{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px black;
+    transition: 0.5s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(245, 245, 245, 0);
+}
+.login-form form{
+    width: 90%;
+}
+.wthree-text{
+    margin-left: 15px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wthree-text ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wthree-text ul li{
+
+ margin-right: 30px;
+    margin-left: 10px;
+
+}
+.wthree-text ul li a{
+ color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+.style-input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.style-input input{
+    outline: rgba(245, 245, 245, 0);
+    background-color: rgba(245, 245, 245, 0);
+    border-color: rgba(245, 245, 245, 0);
+    width: 230px;
+    color: black;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    transition-delay: 99999s;
+    transition: color 99999s ease-out, background-color 99999s ease-out;
+    -webkit-transition-delay: 99999s;
+    -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+    -webkit-text-fill-color: #807c7c;
+}
+
+.btn {
+    margin-top: 5px;
+    transition-duration: 300s;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.twinkle {
+    transition-duration: 300ms;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #2c3e50;
+    color: #2c3e50;
+    transition: background-color .2s;
+}
+
+.twinkle::before {
+    transition-duration: 300ms;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 200%;
+    background-image: linear-gradient(180deg, #f6f4f4 100%, #f6f4f4 0%);
+    transform: skew(45deg) translate3d(-200px,0,0);
+}
+
+.twinkle:hover {
+    transition-duration: 300ms;
+    background-image: linear-gradient(180deg, #f6f4f4 0%, #f6f4f4 100%);
+}
+
+.twinkle:hover::before {
+    transition-duration: 300s;
+    transition: ease-in-out .200ms;
+    transform: skew(45deg) translate3d(300px,0,0);
+}
+
+#brand{
+    transform: translateY(2px);
+}
+.signup-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-form p{
+    color: rgb(245, 245, 245);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form a{
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
